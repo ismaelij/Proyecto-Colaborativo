@@ -8,7 +8,7 @@ Se fomenta el trabajo en equipo, focalizando todos los esfuerzos en alcanzar un 
 
 > "Scrum sirve para mejorar el trabajo colaborativo entre equipos".
 
-###### Ceremonias
+## Ceremonias
 Las ceremonias son una parte importante del progeso ágil de un proyecto. Las cuatro ceremonias principales son las reuniones que tienen lugar en los ***Sprints***, y que pretenden asegurar el rápido y constante progreso del equipo, a la par que mejorar continuamente la forma de trabajar.
 
 1. **Sprint Planning:** Requiere de la presencia de todos los integrantes del equipo. Deben ponerse de acuerdo sobre el trabajo a realizar durante el ***Sprint***. El ***Product Owner*** selecciona y prioriza los elementos más importantes del ***Product Backlog***, explicando cada uno de los elementos seleccionados y su importancia al equipo.
@@ -23,7 +23,7 @@ Las ceremonias son una parte importante del progeso ágil de un proyecto. Las cu
 4. **Sprint Retrospective:** Requiere de la presencia de todos los integrantes del equipo y el ***Scrum Master***, el ***Product Owner*** puede estar prestando atención, pero no es obligatorio que asista. Se revisa la forma de trabajo del equipo durante el ***Sprint*** que acaba de finalizar. Los miembros se dan ***feedback*** entre sí, e intentan colectivamente pensar en soluciones para superar los obstáculos, y pensar en mejoras en cuanto a la forma de trabajar. Se debe celebrar siempre al final de cada **Sprint**, aunque el ***Sprint*** haya ido perfectamente y el equipo sea feliz, el ***Sprint*** se debe celebrar.
 
 
-###### Artefactos
+## Artefactos
 Los artefactos contienen la información más importante para el equipo, tanto para ellos, como para todas las partes interesadas. 
 Hay 3 artefactos principales en scrum: 
 - *Product Backlog*
@@ -43,7 +43,7 @@ Hay otros artefactos que pueden usarse dentro del equipo, pero a éstos no se le
 
 5. **Burndown chart** Artefacto que es usado para medir el progreso general de un proyecto. Tiene una visión a largo plazo del trabajo terminado y del trabajo por realizar. Mide la velocidad, y compara con el trabajo estimado y con el trabajo realmente realizado, dando un aporte de realismo al equipo.
 
-###### Roles
+## Roles
 Los equipos son ***auto-gestionados y multidisciplinarios***. Significa, que como equipo, ellos mismos deciden cual es el mejor camino a seguir, nadie de fuera del equipo decide sobre los pasos a seguir. Además, los equipos habilidades necesarias para llevar a cabo su trabajo, sin necesidad de la intervención de un agente externo.
 
 1. **Product Owner (PO):** Es el responsable de clientes y usuarios del proyecto. Hay un ***PO*** por cada equipo. El ***PO*** es el encargado de mantener y gestionar el ***Product Backlog***, que incluye los elementos ***"User Stories"*** del ***Backlog*** ordenados por prioridad.
