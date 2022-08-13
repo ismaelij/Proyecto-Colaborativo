@@ -1,0 +1,44 @@
+/* Actividad 1 */
+
+CREATE TABLE `peluqueria_canina`.`dueno` (
+  `DNI` INT NOT NULL,
+  `Nombre` VARCHAR(45) NOT NULL,
+  `Apellido` VARCHAR(45) NOT NULL,
+  `Telefono` INT NOT NULL,
+  `Direccion` VARCHAR(150) NOT NULL,
+  PRIMARY KEY (`DNI`));
+
+CREATE TABLE `peluqueria_canina`.`perro` (
+  `ID_Perro` INT NOT NULL,
+  `Nombre` VARCHAR(45) NOT NULL,
+  `Fecha_Nac` DATETIME NOT NULL,
+  `Sexo` VARCHAR(45) NOT NULL,
+  `DNI_Dueno` INT NOT NULL,
+  PRIMARY KEY (`ID_Perro`),
+  FOREIGN KEY (DNI_dueno) REFERENCES dueno(DNI)
+  );
+
+CREATE TABLE `peluqueria_canina`.`historial` (
+  `ID_Historial` INT NOT NULL,
+  `Fecha` DATETIME NOT NULL,
+  `Perro` VARCHAR(45) NOT NULL,
+  `Descripcion` VARCHAR(200) NOT NULL,
+  `Monto` DECIMAL NOT NULL,
+  PRIMARY KEY (`ID_Historial`),
+  FOREIGN KEY (Perro) REFERENCES perro(ID_Perro)
+  );
+
+/* Actividad 2 */
+
+INSERT INTO peluqueria_canina.dueno (DNI, Nombre, Apellido, Telefono, Direccion) 
+VALUES ('28957346', 'Pedro', 'Perez', '4789689', 'Belgrano 101');
+
+INSERT INTO peluqueria_canina.perro (ID_Perro, Nombre, Fecha_nac, Sexo, DNI_dueno) 
+VALUES ('1', 'Lexi', '2020-11-01', 'F', '28957346');
+
+/* Actividad 5 */
+
+SELECT perro.Nombre FROM peluqueria_canina.perro
+JOIN peluqueria_canina.dueno ON perro.DNI_dueno=dueno.DNI
+WHERE dueno.Nombre LIKE 'Pedro'
+ORDER BY perro.Nombre
