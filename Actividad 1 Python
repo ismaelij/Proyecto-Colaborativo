@@ -1,0 +1,7 @@
+Dueno= [["28957346","Juan","Perez", "4789689","Belgrano 101"]]
+
+for cliente in Dueno:
+    if int (cliente[0])>26000000:
+        print ("Telefono:",cliente[3])
+    
+
